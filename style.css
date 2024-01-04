@@ -14,7 +14,7 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(images/backg.jpg);
+    background-image: url(images/back3.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -29,10 +29,7 @@ nav{
     flex-wrap: wrap;
 }
 .nametag{
-    width: 120px;
-    height: 120px;
-    border-radius: 60px;
-    
+    width: 140px;
 }
 
 nav ul li{
@@ -182,7 +179,7 @@ nav ul li a:hover::after{
     display: inline-block;
 }
 .services-list div:hover{
-    background: #02515178;
+    background: #3cc6c678;
     transform: translate(-10px);
 }
 /*----------portfolio----------*/
@@ -211,7 +208,7 @@ nav ul li a:hover::after{
 .layer{
     width:100%;
     height: 0;
-    background: linear-gradient(rgba(0,0,0,0), #053b3bf1);
+    background: linear-gradient(rgba(0,0,0,0), #224444f1);
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -261,7 +258,7 @@ nav ul li a:hover::after{
 
 }
 .btn:hover{
-    background: #14f4f4f1;
+    background: #176f6ff1;
 }
 /*----------------contact-----------------*/
 .contact-left{
@@ -335,7 +332,7 @@ nav .fas{
 
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url(images/back.jpeg);
+        background-image: url(images/back3.jpg);
     }
     .header-text{
         margin-top: 100%;
@@ -354,7 +351,7 @@ nav .fas{
         top: 0;
         right: -200px;
         width: 200px;
-        height: 100vh;
+        height: 50vh;
         padding-top: 50px;
         z-index: 2;
         transition: right 0.5s;
